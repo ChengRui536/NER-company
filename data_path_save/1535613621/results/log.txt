@@ -1,0 +1,641 @@
+2018-08-30 15:20:21,440:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='train', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-08-30 15:20:25,259:INFO: 2018-08-30 15:20:23 epoch 1, step 1, loss: 87.75, global_step: 1
+2018-08-30 15:20:25,259:INFO: 2018-08-30 15:20:23 epoch 1, step 1, loss: 87.75, global_step: 1
+2018-08-30 15:25:01,547:INFO: 2018-08-30 15:20:23 epoch 1, step 300, loss: 9.966, global_step: 300
+2018-08-30 15:25:01,547:INFO: 2018-08-30 15:20:23 epoch 1, step 300, loss: 9.966, global_step: 300
+2018-08-30 15:29:39,284:INFO: 2018-08-30 15:20:23 epoch 1, step 600, loss: 4.766, global_step: 600
+2018-08-30 15:29:39,284:INFO: 2018-08-30 15:20:23 epoch 1, step 600, loss: 4.766, global_step: 600
+2018-08-30 15:32:36,204:INFO: 2018-08-30 15:20:23 epoch 1, step 792, loss: 4.502, global_step: 792
+2018-08-30 15:32:36,204:INFO: 2018-08-30 15:20:23 epoch 1, step 792, loss: 4.502, global_step: 792
+2018-08-30 15:32:36,419:INFO: ===========validation / test===========
+2018-08-30 15:32:36,419:INFO: ===========validation / test===========
+2018-08-30 15:33:06,829:INFO: processed 177232 tokens with 1331 phrases; found: 2397 phrases; correct: 531.
+2018-08-30 15:33:06,829:INFO: processed 177232 tokens with 1331 phrases; found: 2397 phrases; correct: 531.
+2018-08-30 15:33:06,830:INFO: accuracy:  97.94%; precision:  22.15%; recall:  39.89%; FB1:  28.49
+2018-08-30 15:33:06,830:INFO: accuracy:  97.94%; precision:  22.15%; recall:  39.89%; FB1:  28.49
+2018-08-30 15:33:06,830:INFO: COM: precision:  22.15%; recall:  39.89%; FB1:  28.49  2397
+2018-08-30 15:33:06,830:INFO: COM: precision:  22.15%; recall:  39.89%; FB1:  28.49  2397
+2018-08-30 15:33:07,846:INFO: 2018-08-30 15:33:06 epoch 2, step 1, loss: 2.514, global_step: 793
+2018-08-30 15:33:07,846:INFO: 2018-08-30 15:33:06 epoch 2, step 1, loss: 2.514, global_step: 793
+2018-08-30 15:37:41,731:INFO: 2018-08-30 15:33:06 epoch 2, step 300, loss: 2.669, global_step: 1092
+2018-08-30 15:37:41,731:INFO: 2018-08-30 15:33:06 epoch 2, step 300, loss: 2.669, global_step: 1092
+2018-08-30 15:42:21,870:INFO: 2018-08-30 15:33:06 epoch 2, step 600, loss: 1.807, global_step: 1392
+2018-08-30 15:42:21,870:INFO: 2018-08-30 15:33:06 epoch 2, step 600, loss: 1.807, global_step: 1392
+2018-08-30 15:45:23,759:INFO: 2018-08-30 15:33:06 epoch 2, step 792, loss: 1.536, global_step: 1584
+2018-08-30 15:45:23,759:INFO: 2018-08-30 15:33:06 epoch 2, step 792, loss: 1.536, global_step: 1584
+2018-08-30 15:45:23,991:INFO: ===========validation / test===========
+2018-08-30 15:45:23,991:INFO: ===========validation / test===========
+2018-08-30 15:45:53,745:INFO: processed 177232 tokens with 1331 phrases; found: 1293 phrases; correct: 773.
+2018-08-30 15:45:53,745:INFO: processed 177232 tokens with 1331 phrases; found: 1293 phrases; correct: 773.
+2018-08-30 15:45:53,746:INFO: accuracy:  98.41%; precision:  59.78%; recall:  58.08%; FB1:  58.92
+2018-08-30 15:45:53,746:INFO: accuracy:  98.41%; precision:  59.78%; recall:  58.08%; FB1:  58.92
+2018-08-30 15:45:53,746:INFO: COM: precision:  59.78%; recall:  58.08%; FB1:  58.92  1293
+2018-08-30 15:45:53,746:INFO: COM: precision:  59.78%; recall:  58.08%; FB1:  58.92  1293
+2018-08-30 15:45:54,842:INFO: 2018-08-30 15:45:53 epoch 3, step 1, loss: 1.655, global_step: 1585
+2018-08-30 15:45:54,842:INFO: 2018-08-30 15:45:53 epoch 3, step 1, loss: 1.655, global_step: 1585
+2018-08-30 15:50:31,715:INFO: 2018-08-30 15:45:53 epoch 3, step 300, loss: 1.368, global_step: 1884
+2018-08-30 15:50:31,715:INFO: 2018-08-30 15:45:53 epoch 3, step 300, loss: 1.368, global_step: 1884
+2018-08-30 15:55:08,833:INFO: 2018-08-30 15:45:53 epoch 3, step 600, loss: 0.4056, global_step: 2184
+2018-08-30 15:55:08,833:INFO: 2018-08-30 15:45:53 epoch 3, step 600, loss: 0.4056, global_step: 2184
+2018-08-30 15:58:04,569:INFO: 2018-08-30 15:45:53 epoch 3, step 792, loss: 0.3905, global_step: 2376
+2018-08-30 15:58:04,569:INFO: 2018-08-30 15:45:53 epoch 3, step 792, loss: 0.3905, global_step: 2376
+2018-08-30 15:58:04,780:INFO: ===========validation / test===========
+2018-08-30 15:58:04,780:INFO: ===========validation / test===========
+2018-08-30 15:58:33,951:INFO: processed 177232 tokens with 1331 phrases; found: 1261 phrases; correct: 905.
+2018-08-30 15:58:33,951:INFO: processed 177232 tokens with 1331 phrases; found: 1261 phrases; correct: 905.
+2018-08-30 15:58:33,952:INFO: accuracy:  98.69%; precision:  71.77%; recall:  67.99%; FB1:  69.83
+2018-08-30 15:58:33,952:INFO: accuracy:  98.69%; precision:  71.77%; recall:  67.99%; FB1:  69.83
+2018-08-30 15:58:33,952:INFO: COM: precision:  71.77%; recall:  67.99%; FB1:  69.83  1261
+2018-08-30 15:58:33,952:INFO: COM: precision:  71.77%; recall:  67.99%; FB1:  69.83  1261
+2018-08-30 15:58:34,978:INFO: 2018-08-30 15:58:33 epoch 4, step 1, loss: 0.6751, global_step: 2377
+2018-08-30 15:58:34,978:INFO: 2018-08-30 15:58:33 epoch 4, step 1, loss: 0.6751, global_step: 2377
+2018-08-30 16:03:10,311:INFO: 2018-08-30 15:58:33 epoch 4, step 300, loss: 1.244, global_step: 2676
+2018-08-30 16:03:10,311:INFO: 2018-08-30 15:58:33 epoch 4, step 300, loss: 1.244, global_step: 2676
+2018-08-30 16:07:44,814:INFO: 2018-08-30 15:58:33 epoch 4, step 600, loss: 0.7633, global_step: 2976
+2018-08-30 16:07:44,814:INFO: 2018-08-30 15:58:33 epoch 4, step 600, loss: 0.7633, global_step: 2976
+2018-08-30 16:10:41,740:INFO: 2018-08-30 15:58:33 epoch 4, step 792, loss: 0.3222, global_step: 3168
+2018-08-30 16:10:41,740:INFO: 2018-08-30 15:58:33 epoch 4, step 792, loss: 0.3222, global_step: 3168
+2018-08-30 16:10:41,968:INFO: ===========validation / test===========
+2018-08-30 16:10:41,968:INFO: ===========validation / test===========
+2018-08-30 16:11:10,648:INFO: processed 177232 tokens with 1331 phrases; found: 1262 phrases; correct: 948.
+2018-08-30 16:11:10,648:INFO: processed 177232 tokens with 1331 phrases; found: 1262 phrases; correct: 948.
+2018-08-30 16:11:10,649:INFO: accuracy:  98.76%; precision:  75.12%; recall:  71.22%; FB1:  73.12
+2018-08-30 16:11:10,649:INFO: accuracy:  98.76%; precision:  75.12%; recall:  71.22%; FB1:  73.12
+2018-08-30 16:11:10,649:INFO: COM: precision:  75.12%; recall:  71.22%; FB1:  73.12  1262
+2018-08-30 16:11:10,649:INFO: COM: precision:  75.12%; recall:  71.22%; FB1:  73.12  1262
+2018-08-30 16:11:11,765:INFO: 2018-08-30 16:11:10 epoch 5, step 1, loss: 0.8764, global_step: 3169
+2018-08-30 16:11:11,765:INFO: 2018-08-30 16:11:10 epoch 5, step 1, loss: 0.8764, global_step: 3169
+2018-08-30 16:15:48,389:INFO: 2018-08-30 16:11:10 epoch 5, step 300, loss: 0.2679, global_step: 3468
+2018-08-30 16:15:48,389:INFO: 2018-08-30 16:11:10 epoch 5, step 300, loss: 0.2679, global_step: 3468
+2018-08-30 16:20:23,647:INFO: 2018-08-30 16:11:10 epoch 5, step 600, loss: 1.16, global_step: 3768
+2018-08-30 16:20:23,647:INFO: 2018-08-30 16:11:10 epoch 5, step 600, loss: 1.16, global_step: 3768
+2018-08-30 16:23:18,381:INFO: 2018-08-30 16:11:10 epoch 5, step 792, loss: 1.088, global_step: 3960
+2018-08-30 16:23:18,381:INFO: 2018-08-30 16:11:10 epoch 5, step 792, loss: 1.088, global_step: 3960
+2018-08-30 16:23:18,587:INFO: ===========validation / test===========
+2018-08-30 16:23:18,587:INFO: ===========validation / test===========
+2018-08-30 16:23:48,830:INFO: processed 177232 tokens with 1331 phrases; found: 1316 phrases; correct: 990.
+2018-08-30 16:23:48,830:INFO: processed 177232 tokens with 1331 phrases; found: 1316 phrases; correct: 990.
+2018-08-30 16:23:48,830:INFO: accuracy:  98.79%; precision:  75.23%; recall:  74.38%; FB1:  74.80
+2018-08-30 16:23:48,830:INFO: accuracy:  98.79%; precision:  75.23%; recall:  74.38%; FB1:  74.80
+2018-08-30 16:23:48,831:INFO: COM: precision:  75.23%; recall:  74.38%; FB1:  74.80  1316
+2018-08-30 16:23:48,831:INFO: COM: precision:  75.23%; recall:  74.38%; FB1:  74.80  1316
+2018-08-30 16:23:49,894:INFO: 2018-08-30 16:23:48 epoch 6, step 1, loss: 0.4538, global_step: 3961
+2018-08-30 16:23:49,894:INFO: 2018-08-30 16:23:48 epoch 6, step 1, loss: 0.4538, global_step: 3961
+2018-08-30 16:28:27,347:INFO: 2018-08-30 16:23:48 epoch 6, step 300, loss: 1.408, global_step: 4260
+2018-08-30 16:28:27,347:INFO: 2018-08-30 16:23:48 epoch 6, step 300, loss: 1.408, global_step: 4260
+2018-08-30 16:33:06,480:INFO: 2018-08-30 16:23:48 epoch 6, step 600, loss: 0.4665, global_step: 4560
+2018-08-30 16:33:06,480:INFO: 2018-08-30 16:23:48 epoch 6, step 600, loss: 0.4665, global_step: 4560
+2018-08-30 16:36:02,288:INFO: 2018-08-30 16:23:48 epoch 6, step 792, loss: 0.2733, global_step: 4752
+2018-08-30 16:36:02,288:INFO: 2018-08-30 16:23:48 epoch 6, step 792, loss: 0.2733, global_step: 4752
+2018-08-30 16:36:02,499:INFO: ===========validation / test===========
+2018-08-30 16:36:02,499:INFO: ===========validation / test===========
+2018-08-30 16:36:31,883:INFO: processed 177232 tokens with 1331 phrases; found: 1264 phrases; correct: 984.
+2018-08-30 16:36:31,883:INFO: processed 177232 tokens with 1331 phrases; found: 1264 phrases; correct: 984.
+2018-08-30 16:36:31,883:INFO: accuracy:  98.78%; precision:  77.85%; recall:  73.93%; FB1:  75.84
+2018-08-30 16:36:31,883:INFO: accuracy:  98.78%; precision:  77.85%; recall:  73.93%; FB1:  75.84
+2018-08-30 16:36:31,883:INFO: COM: precision:  77.85%; recall:  73.93%; FB1:  75.84  1264
+2018-08-30 16:36:31,883:INFO: COM: precision:  77.85%; recall:  73.93%; FB1:  75.84  1264
+2018-08-30 16:36:33,591:INFO: 2018-08-30 16:36:31 epoch 7, step 1, loss: 0.3314, global_step: 4753
+2018-08-30 16:36:33,591:INFO: 2018-08-30 16:36:31 epoch 7, step 1, loss: 0.3314, global_step: 4753
+2018-08-30 16:41:08,110:INFO: 2018-08-30 16:36:31 epoch 7, step 300, loss: 0.5919, global_step: 5052
+2018-08-30 16:41:08,110:INFO: 2018-08-30 16:36:31 epoch 7, step 300, loss: 0.5919, global_step: 5052
+2018-08-30 16:45:45,887:INFO: 2018-08-30 16:36:31 epoch 7, step 600, loss: 0.3363, global_step: 5352
+2018-08-30 16:45:45,887:INFO: 2018-08-30 16:36:31 epoch 7, step 600, loss: 0.3363, global_step: 5352
+2018-08-30 16:48:41,863:INFO: 2018-08-30 16:36:31 epoch 7, step 792, loss: 0.2121, global_step: 5544
+2018-08-30 16:48:41,863:INFO: 2018-08-30 16:36:31 epoch 7, step 792, loss: 0.2121, global_step: 5544
+2018-08-30 16:48:42,109:INFO: ===========validation / test===========
+2018-08-30 16:48:42,109:INFO: ===========validation / test===========
+2018-08-30 16:49:11,230:INFO: processed 177232 tokens with 1331 phrases; found: 1283 phrases; correct: 1012.
+2018-08-30 16:49:11,230:INFO: processed 177232 tokens with 1331 phrases; found: 1283 phrases; correct: 1012.
+2018-08-30 16:49:11,231:INFO: accuracy:  98.92%; precision:  78.88%; recall:  76.03%; FB1:  77.43
+2018-08-30 16:49:11,231:INFO: accuracy:  98.92%; precision:  78.88%; recall:  76.03%; FB1:  77.43
+2018-08-30 16:49:11,231:INFO: COM: precision:  78.88%; recall:  76.03%; FB1:  77.43  1283
+2018-08-30 16:49:11,231:INFO: COM: precision:  78.88%; recall:  76.03%; FB1:  77.43  1283
+2018-08-30 16:49:12,300:INFO: 2018-08-30 16:49:11 epoch 8, step 1, loss: 0.3591, global_step: 5545
+2018-08-30 16:49:12,300:INFO: 2018-08-30 16:49:11 epoch 8, step 1, loss: 0.3591, global_step: 5545
+2018-08-30 16:53:45,355:INFO: 2018-08-30 16:49:11 epoch 8, step 300, loss: 0.3334, global_step: 5844
+2018-08-30 16:53:45,355:INFO: 2018-08-30 16:49:11 epoch 8, step 300, loss: 0.3334, global_step: 5844
+2018-08-30 16:58:20,721:INFO: 2018-08-30 16:49:11 epoch 8, step 600, loss: 0.1914, global_step: 6144
+2018-08-30 16:58:20,721:INFO: 2018-08-30 16:49:11 epoch 8, step 600, loss: 0.1914, global_step: 6144
+2018-08-30 17:01:16,360:INFO: 2018-08-30 16:49:11 epoch 8, step 792, loss: 0.2923, global_step: 6336
+2018-08-30 17:01:16,360:INFO: 2018-08-30 16:49:11 epoch 8, step 792, loss: 0.2923, global_step: 6336
+2018-08-30 17:01:16,590:INFO: ===========validation / test===========
+2018-08-30 17:01:16,590:INFO: ===========validation / test===========
+2018-08-30 17:01:45,048:INFO: processed 177232 tokens with 1331 phrases; found: 1262 phrases; correct: 1004.
+2018-08-30 17:01:45,048:INFO: processed 177232 tokens with 1331 phrases; found: 1262 phrases; correct: 1004.
+2018-08-30 17:01:45,048:INFO: accuracy:  98.90%; precision:  79.56%; recall:  75.43%; FB1:  77.44
+2018-08-30 17:01:45,048:INFO: accuracy:  98.90%; precision:  79.56%; recall:  75.43%; FB1:  77.44
+2018-08-30 17:01:45,048:INFO: COM: precision:  79.56%; recall:  75.43%; FB1:  77.44  1262
+2018-08-30 17:01:45,048:INFO: COM: precision:  79.56%; recall:  75.43%; FB1:  77.44  1262
+2018-08-30 17:01:46,472:INFO: 2018-08-30 17:01:45 epoch 9, step 1, loss: 0.1238, global_step: 6337
+2018-08-30 17:01:46,472:INFO: 2018-08-30 17:01:45 epoch 9, step 1, loss: 0.1238, global_step: 6337
+2018-08-30 17:06:28,481:INFO: 2018-08-30 17:01:45 epoch 9, step 300, loss: 0.414, global_step: 6636
+2018-08-30 17:06:28,481:INFO: 2018-08-30 17:01:45 epoch 9, step 300, loss: 0.414, global_step: 6636
+2018-08-30 17:12:18,850:INFO: 2018-08-30 17:01:45 epoch 9, step 600, loss: 0.1459, global_step: 6936
+2018-08-30 17:12:18,850:INFO: 2018-08-30 17:01:45 epoch 9, step 600, loss: 0.1459, global_step: 6936
+2018-08-30 17:15:54,850:INFO: 2018-08-30 17:01:45 epoch 9, step 792, loss: 0.2541, global_step: 7128
+2018-08-30 17:15:54,850:INFO: 2018-08-30 17:01:45 epoch 9, step 792, loss: 0.2541, global_step: 7128
+2018-08-30 17:15:55,115:INFO: ===========validation / test===========
+2018-08-30 17:15:55,115:INFO: ===========validation / test===========
+2018-08-30 17:16:37,343:INFO: processed 177232 tokens with 1331 phrases; found: 1386 phrases; correct: 1076.
+2018-08-30 17:16:37,343:INFO: processed 177232 tokens with 1331 phrases; found: 1386 phrases; correct: 1076.
+2018-08-30 17:16:37,343:INFO: accuracy:  98.95%; precision:  77.63%; recall:  80.84%; FB1:  79.21
+2018-08-30 17:16:37,343:INFO: accuracy:  98.95%; precision:  77.63%; recall:  80.84%; FB1:  79.21
+2018-08-30 17:16:37,343:INFO: COM: precision:  77.63%; recall:  80.84%; FB1:  79.21  1386
+2018-08-30 17:16:37,343:INFO: COM: precision:  77.63%; recall:  80.84%; FB1:  79.21  1386
+2018-08-30 17:16:38,638:INFO: 2018-08-30 17:16:37 epoch 10, step 1, loss: 0.1328, global_step: 7129
+2018-08-30 17:16:38,638:INFO: 2018-08-30 17:16:37 epoch 10, step 1, loss: 0.1328, global_step: 7129
+2018-08-30 17:22:18,494:INFO: 2018-08-30 17:16:37 epoch 10, step 300, loss: 0.1416, global_step: 7428
+2018-08-30 17:22:18,494:INFO: 2018-08-30 17:16:37 epoch 10, step 300, loss: 0.1416, global_step: 7428
+2018-08-30 17:27:59,290:INFO: 2018-08-30 17:16:37 epoch 10, step 600, loss: 0.1406, global_step: 7728
+2018-08-30 17:27:59,290:INFO: 2018-08-30 17:16:37 epoch 10, step 600, loss: 0.1406, global_step: 7728
+2018-08-30 17:31:49,187:INFO: 2018-08-30 17:16:37 epoch 10, step 792, loss: 0.05759, global_step: 7920
+2018-08-30 17:31:49,187:INFO: 2018-08-30 17:16:37 epoch 10, step 792, loss: 0.05759, global_step: 7920
+2018-08-30 17:31:49,439:INFO: ===========validation / test===========
+2018-08-30 17:31:49,439:INFO: ===========validation / test===========
+2018-08-30 17:32:19,531:INFO: processed 177232 tokens with 1331 phrases; found: 1344 phrases; correct: 1080.
+2018-08-30 17:32:19,531:INFO: processed 177232 tokens with 1331 phrases; found: 1344 phrases; correct: 1080.
+2018-08-30 17:32:19,583:INFO: accuracy:  99.06%; precision:  80.36%; recall:  81.14%; FB1:  80.75
+2018-08-30 17:32:19,583:INFO: accuracy:  99.06%; precision:  80.36%; recall:  81.14%; FB1:  80.75
+2018-08-30 17:32:19,583:INFO: COM: precision:  80.36%; recall:  81.14%; FB1:  80.75  1344
+2018-08-30 17:32:19,583:INFO: COM: precision:  80.36%; recall:  81.14%; FB1:  80.75  1344
+2018-08-30 17:32:20,774:INFO: 2018-08-30 17:32:19 epoch 11, step 1, loss: 0.1018, global_step: 7921
+2018-08-30 17:32:20,774:INFO: 2018-08-30 17:32:19 epoch 11, step 1, loss: 0.1018, global_step: 7921
+2018-08-30 17:37:37,949:INFO: 2018-08-30 17:32:19 epoch 11, step 300, loss: 0.1241, global_step: 8220
+2018-08-30 17:37:37,949:INFO: 2018-08-30 17:32:19 epoch 11, step 300, loss: 0.1241, global_step: 8220
+2018-08-30 17:43:13,037:INFO: 2018-08-30 17:32:19 epoch 11, step 600, loss: 0.0308, global_step: 8520
+2018-08-30 17:43:13,037:INFO: 2018-08-30 17:32:19 epoch 11, step 600, loss: 0.0308, global_step: 8520
+2018-08-30 17:46:43,535:INFO: 2018-08-30 17:32:19 epoch 11, step 792, loss: 0.1415, global_step: 8712
+2018-08-30 17:46:43,535:INFO: 2018-08-30 17:32:19 epoch 11, step 792, loss: 0.1415, global_step: 8712
+2018-08-30 17:46:43,773:INFO: ===========validation / test===========
+2018-08-30 17:46:43,773:INFO: ===========validation / test===========
+2018-08-30 17:47:20,312:INFO: processed 177232 tokens with 1331 phrases; found: 1272 phrases; correct: 1057.
+2018-08-30 17:47:20,312:INFO: processed 177232 tokens with 1331 phrases; found: 1272 phrases; correct: 1057.
+2018-08-30 17:47:20,312:INFO: accuracy:  99.06%; precision:  83.10%; recall:  79.41%; FB1:  81.21
+2018-08-30 17:47:20,312:INFO: accuracy:  99.06%; precision:  83.10%; recall:  79.41%; FB1:  81.21
+2018-08-30 17:47:20,312:INFO: COM: precision:  83.10%; recall:  79.41%; FB1:  81.21  1272
+2018-08-30 17:47:20,312:INFO: COM: precision:  83.10%; recall:  79.41%; FB1:  81.21  1272
+2018-08-30 17:47:21,603:INFO: 2018-08-30 17:47:20 epoch 12, step 1, loss: 0.06022, global_step: 8713
+2018-08-30 17:47:21,603:INFO: 2018-08-30 17:47:20 epoch 12, step 1, loss: 0.06022, global_step: 8713
+2018-08-30 17:52:47,493:INFO: 2018-08-30 17:47:20 epoch 12, step 300, loss: 0.5481, global_step: 9012
+2018-08-30 17:52:47,493:INFO: 2018-08-30 17:47:20 epoch 12, step 300, loss: 0.5481, global_step: 9012
+2018-08-30 17:58:13,139:INFO: 2018-08-30 17:47:20 epoch 12, step 600, loss: 0.08231, global_step: 9312
+2018-08-30 17:58:13,139:INFO: 2018-08-30 17:47:20 epoch 12, step 600, loss: 0.08231, global_step: 9312
+2018-08-30 18:01:41,053:INFO: 2018-08-30 17:47:20 epoch 12, step 792, loss: 0.2083, global_step: 9504
+2018-08-30 18:01:41,053:INFO: 2018-08-30 17:47:20 epoch 12, step 792, loss: 0.2083, global_step: 9504
+2018-08-30 18:01:41,279:INFO: ===========validation / test===========
+2018-08-30 18:01:41,279:INFO: ===========validation / test===========
+2018-08-30 18:02:10,565:INFO: processed 177232 tokens with 1331 phrases; found: 1332 phrases; correct: 1080.
+2018-08-30 18:02:10,565:INFO: processed 177232 tokens with 1331 phrases; found: 1332 phrases; correct: 1080.
+2018-08-30 18:02:10,566:INFO: accuracy:  99.07%; precision:  81.08%; recall:  81.14%; FB1:  81.11
+2018-08-30 18:02:10,566:INFO: accuracy:  99.07%; precision:  81.08%; recall:  81.14%; FB1:  81.11
+2018-08-30 18:02:10,566:INFO: COM: precision:  81.08%; recall:  81.14%; FB1:  81.11  1332
+2018-08-30 18:02:10,566:INFO: COM: precision:  81.08%; recall:  81.14%; FB1:  81.11  1332
+2018-08-30 18:02:12,608:INFO: 2018-08-30 18:02:10 epoch 13, step 1, loss: 0.1606, global_step: 9505
+2018-08-30 18:02:12,608:INFO: 2018-08-30 18:02:10 epoch 13, step 1, loss: 0.1606, global_step: 9505
+2018-08-30 18:07:22,874:INFO: 2018-08-30 18:02:10 epoch 13, step 300, loss: 0.3777, global_step: 9804
+2018-08-30 18:07:22,874:INFO: 2018-08-30 18:02:10 epoch 13, step 300, loss: 0.3777, global_step: 9804
+2018-08-30 18:12:29,183:INFO: 2018-08-30 18:02:10 epoch 13, step 600, loss: 0.09513, global_step: 10104
+2018-08-30 18:12:29,183:INFO: 2018-08-30 18:02:10 epoch 13, step 600, loss: 0.09513, global_step: 10104
+2018-08-30 18:15:40,546:INFO: 2018-08-30 18:02:10 epoch 13, step 792, loss: 0.1696, global_step: 10296
+2018-08-30 18:15:40,546:INFO: 2018-08-30 18:02:10 epoch 13, step 792, loss: 0.1696, global_step: 10296
+2018-08-30 18:15:40,789:INFO: ===========validation / test===========
+2018-08-30 18:15:40,789:INFO: ===========validation / test===========
+2018-08-30 18:16:10,284:INFO: processed 177232 tokens with 1331 phrases; found: 1306 phrases; correct: 1070.
+2018-08-30 18:16:10,284:INFO: processed 177232 tokens with 1331 phrases; found: 1306 phrases; correct: 1070.
+2018-08-30 18:16:10,284:INFO: accuracy:  99.06%; precision:  81.93%; recall:  80.39%; FB1:  81.15
+2018-08-30 18:16:10,284:INFO: accuracy:  99.06%; precision:  81.93%; recall:  80.39%; FB1:  81.15
+2018-08-30 18:16:10,285:INFO: COM: precision:  81.93%; recall:  80.39%; FB1:  81.15  1306
+2018-08-30 18:16:10,285:INFO: COM: precision:  81.93%; recall:  80.39%; FB1:  81.15  1306
+2018-08-30 18:16:11,829:INFO: 2018-08-30 18:16:10 epoch 14, step 1, loss: 0.1225, global_step: 10297
+2018-08-30 18:16:11,829:INFO: 2018-08-30 18:16:10 epoch 14, step 1, loss: 0.1225, global_step: 10297
+2018-08-30 18:21:15,148:INFO: 2018-08-30 18:16:10 epoch 14, step 300, loss: 0.1391, global_step: 10596
+2018-08-30 18:21:15,148:INFO: 2018-08-30 18:16:10 epoch 14, step 300, loss: 0.1391, global_step: 10596
+2018-08-30 18:26:16,727:INFO: 2018-08-30 18:16:10 epoch 14, step 600, loss: 0.08222, global_step: 10896
+2018-08-30 18:26:16,727:INFO: 2018-08-30 18:16:10 epoch 14, step 600, loss: 0.08222, global_step: 10896
+2018-08-30 18:29:34,699:INFO: 2018-08-30 18:16:10 epoch 14, step 792, loss: 0.08502, global_step: 11088
+2018-08-30 18:29:34,699:INFO: 2018-08-30 18:16:10 epoch 14, step 792, loss: 0.08502, global_step: 11088
+2018-08-30 18:29:34,922:INFO: ===========validation / test===========
+2018-08-30 18:29:34,922:INFO: ===========validation / test===========
+2018-08-30 18:30:04,952:INFO: processed 177232 tokens with 1331 phrases; found: 1331 phrases; correct: 1086.
+2018-08-30 18:30:04,952:INFO: processed 177232 tokens with 1331 phrases; found: 1331 phrases; correct: 1086.
+2018-08-30 18:30:04,952:INFO: accuracy:  99.04%; precision:  81.59%; recall:  81.59%; FB1:  81.59
+2018-08-30 18:30:04,952:INFO: accuracy:  99.04%; precision:  81.59%; recall:  81.59%; FB1:  81.59
+2018-08-30 18:30:04,952:INFO: COM: precision:  81.59%; recall:  81.59%; FB1:  81.59  1331
+2018-08-30 18:30:04,952:INFO: COM: precision:  81.59%; recall:  81.59%; FB1:  81.59  1331
+2018-08-30 18:30:06,080:INFO: 2018-08-30 18:30:04 epoch 15, step 1, loss: 0.09642, global_step: 11089
+2018-08-30 18:30:06,080:INFO: 2018-08-30 18:30:04 epoch 15, step 1, loss: 0.09642, global_step: 11089
+2018-08-30 18:35:29,895:INFO: 2018-08-30 18:30:04 epoch 15, step 300, loss: 0.1589, global_step: 11388
+2018-08-30 18:35:29,895:INFO: 2018-08-30 18:30:04 epoch 15, step 300, loss: 0.1589, global_step: 11388
+2018-08-30 18:40:47,469:INFO: 2018-08-30 18:30:04 epoch 15, step 600, loss: 0.3433, global_step: 11688
+2018-08-30 18:40:47,469:INFO: 2018-08-30 18:30:04 epoch 15, step 600, loss: 0.3433, global_step: 11688
+2018-08-30 18:44:10,078:INFO: 2018-08-30 18:30:04 epoch 15, step 792, loss: 0.06897, global_step: 11880
+2018-08-30 18:44:10,078:INFO: 2018-08-30 18:30:04 epoch 15, step 792, loss: 0.06897, global_step: 11880
+2018-08-30 18:44:10,299:INFO: ===========validation / test===========
+2018-08-30 18:44:10,299:INFO: ===========validation / test===========
+2018-08-30 18:44:48,612:INFO: processed 177232 tokens with 1331 phrases; found: 1312 phrases; correct: 1073.
+2018-08-30 18:44:48,612:INFO: processed 177232 tokens with 1331 phrases; found: 1312 phrases; correct: 1073.
+2018-08-30 18:44:48,612:INFO: accuracy:  99.12%; precision:  81.78%; recall:  80.62%; FB1:  81.20
+2018-08-30 18:44:48,612:INFO: accuracy:  99.12%; precision:  81.78%; recall:  80.62%; FB1:  81.20
+2018-08-30 18:44:48,612:INFO: COM: precision:  81.78%; recall:  80.62%; FB1:  81.20  1312
+2018-08-30 18:44:48,612:INFO: COM: precision:  81.78%; recall:  80.62%; FB1:  81.20  1312
+2018-08-30 18:44:49,893:INFO: 2018-08-30 18:44:48 epoch 16, step 1, loss: 0.07807, global_step: 11881
+2018-08-30 18:44:49,893:INFO: 2018-08-30 18:44:48 epoch 16, step 1, loss: 0.07807, global_step: 11881
+2018-08-30 18:50:07,185:INFO: 2018-08-30 18:44:48 epoch 16, step 300, loss: 0.0548, global_step: 12180
+2018-08-30 18:50:07,185:INFO: 2018-08-30 18:44:48 epoch 16, step 300, loss: 0.0548, global_step: 12180
+2018-08-30 18:55:35,563:INFO: 2018-08-30 18:44:48 epoch 16, step 600, loss: 0.1849, global_step: 12480
+2018-08-30 18:55:35,563:INFO: 2018-08-30 18:44:48 epoch 16, step 600, loss: 0.1849, global_step: 12480
+2018-08-30 18:58:55,256:INFO: 2018-08-30 18:44:48 epoch 16, step 792, loss: 0.01104, global_step: 12672
+2018-08-30 18:58:55,256:INFO: 2018-08-30 18:44:48 epoch 16, step 792, loss: 0.01104, global_step: 12672
+2018-08-30 18:58:55,858:INFO: ===========validation / test===========
+2018-08-30 18:58:55,858:INFO: ===========validation / test===========
+2018-08-30 18:59:27,898:INFO: processed 177232 tokens with 1331 phrases; found: 1310 phrases; correct: 1069.
+2018-08-30 18:59:27,898:INFO: processed 177232 tokens with 1331 phrases; found: 1310 phrases; correct: 1069.
+2018-08-30 18:59:27,899:INFO: accuracy:  99.08%; precision:  81.60%; recall:  80.32%; FB1:  80.95
+2018-08-30 18:59:27,899:INFO: accuracy:  99.08%; precision:  81.60%; recall:  80.32%; FB1:  80.95
+2018-08-30 18:59:27,899:INFO: COM: precision:  81.60%; recall:  80.32%; FB1:  80.95  1310
+2018-08-30 18:59:27,899:INFO: COM: precision:  81.60%; recall:  80.32%; FB1:  80.95  1310
+2018-08-30 18:59:29,100:INFO: 2018-08-30 18:59:27 epoch 17, step 1, loss: 0.04289, global_step: 12673
+2018-08-30 18:59:29,100:INFO: 2018-08-30 18:59:27 epoch 17, step 1, loss: 0.04289, global_step: 12673
+2018-08-30 19:04:46,457:INFO: 2018-08-30 18:59:27 epoch 17, step 300, loss: 0.04899, global_step: 12972
+2018-08-30 19:04:46,457:INFO: 2018-08-30 18:59:27 epoch 17, step 300, loss: 0.04899, global_step: 12972
+2018-08-30 19:10:26,791:INFO: 2018-08-30 18:59:27 epoch 17, step 600, loss: 0.09519, global_step: 13272
+2018-08-30 19:10:26,791:INFO: 2018-08-30 18:59:27 epoch 17, step 600, loss: 0.09519, global_step: 13272
+2018-08-30 19:13:57,158:INFO: 2018-08-30 18:59:27 epoch 17, step 792, loss: 0.1457, global_step: 13464
+2018-08-30 19:13:57,158:INFO: 2018-08-30 18:59:27 epoch 17, step 792, loss: 0.1457, global_step: 13464
+2018-08-30 19:13:57,391:INFO: ===========validation / test===========
+2018-08-30 19:13:57,391:INFO: ===========validation / test===========
+2018-08-30 19:14:38,529:INFO: processed 177232 tokens with 1331 phrases; found: 1319 phrases; correct: 1079.
+2018-08-30 19:14:38,529:INFO: processed 177232 tokens with 1331 phrases; found: 1319 phrases; correct: 1079.
+2018-08-30 19:14:38,529:INFO: accuracy:  99.08%; precision:  81.80%; recall:  81.07%; FB1:  81.43
+2018-08-30 19:14:38,529:INFO: accuracy:  99.08%; precision:  81.80%; recall:  81.07%; FB1:  81.43
+2018-08-30 19:14:38,529:INFO: COM: precision:  81.80%; recall:  81.07%; FB1:  81.43  1319
+2018-08-30 19:14:38,529:INFO: COM: precision:  81.80%; recall:  81.07%; FB1:  81.43  1319
+2018-08-30 19:14:39,627:INFO: 2018-08-30 19:14:38 epoch 18, step 1, loss: 0.04176, global_step: 13465
+2018-08-30 19:14:39,627:INFO: 2018-08-30 19:14:38 epoch 18, step 1, loss: 0.04176, global_step: 13465
+2018-08-30 19:19:59,061:INFO: 2018-08-30 19:14:38 epoch 18, step 300, loss: 0.06821, global_step: 13764
+2018-08-30 19:19:59,061:INFO: 2018-08-30 19:14:38 epoch 18, step 300, loss: 0.06821, global_step: 13764
+2018-08-30 19:25:29,539:INFO: 2018-08-30 19:14:38 epoch 18, step 600, loss: 0.1076, global_step: 14064
+2018-08-30 19:25:29,539:INFO: 2018-08-30 19:14:38 epoch 18, step 600, loss: 0.1076, global_step: 14064
+2018-08-30 19:29:03,722:INFO: 2018-08-30 19:14:38 epoch 18, step 792, loss: 0.198, global_step: 14256
+2018-08-30 19:29:03,722:INFO: 2018-08-30 19:14:38 epoch 18, step 792, loss: 0.198, global_step: 14256
+2018-08-30 19:29:04,009:INFO: ===========validation / test===========
+2018-08-30 19:29:04,009:INFO: ===========validation / test===========
+2018-08-30 19:29:44,450:INFO: processed 177232 tokens with 1331 phrases; found: 1223 phrases; correct: 1028.
+2018-08-30 19:29:44,450:INFO: processed 177232 tokens with 1331 phrases; found: 1223 phrases; correct: 1028.
+2018-08-30 19:29:44,450:INFO: accuracy:  99.04%; precision:  84.06%; recall:  77.24%; FB1:  80.50
+2018-08-30 19:29:44,450:INFO: accuracy:  99.04%; precision:  84.06%; recall:  77.24%; FB1:  80.50
+2018-08-30 19:29:44,451:INFO: COM: precision:  84.06%; recall:  77.24%; FB1:  80.50  1223
+2018-08-30 19:29:44,451:INFO: COM: precision:  84.06%; recall:  77.24%; FB1:  80.50  1223
+2018-08-30 19:29:45,629:INFO: 2018-08-30 19:29:44 epoch 19, step 1, loss: 0.5227, global_step: 14257
+2018-08-30 19:29:45,629:INFO: 2018-08-30 19:29:44 epoch 19, step 1, loss: 0.5227, global_step: 14257
+2018-08-30 19:34:48,078:INFO: 2018-08-30 19:29:44 epoch 19, step 300, loss: 0.1085, global_step: 14556
+2018-08-30 19:34:48,078:INFO: 2018-08-30 19:29:44 epoch 19, step 300, loss: 0.1085, global_step: 14556
+2018-08-30 19:39:14,947:INFO: 2018-08-30 19:29:44 epoch 19, step 600, loss: 0.06193, global_step: 14856
+2018-08-30 19:39:14,947:INFO: 2018-08-30 19:29:44 epoch 19, step 600, loss: 0.06193, global_step: 14856
+2018-08-30 19:42:04,761:INFO: 2018-08-30 19:29:44 epoch 19, step 792, loss: 0.3022, global_step: 15048
+2018-08-30 19:42:04,761:INFO: 2018-08-30 19:29:44 epoch 19, step 792, loss: 0.3022, global_step: 15048
+2018-08-30 19:42:05,003:INFO: ===========validation / test===========
+2018-08-30 19:42:05,003:INFO: ===========validation / test===========
+2018-08-30 19:42:33,681:INFO: processed 177232 tokens with 1331 phrases; found: 1292 phrases; correct: 1087.
+2018-08-30 19:42:33,681:INFO: processed 177232 tokens with 1331 phrases; found: 1292 phrases; correct: 1087.
+2018-08-30 19:42:33,682:INFO: accuracy:  99.15%; precision:  84.13%; recall:  81.67%; FB1:  82.88
+2018-08-30 19:42:33,682:INFO: accuracy:  99.15%; precision:  84.13%; recall:  81.67%; FB1:  82.88
+2018-08-30 19:42:33,682:INFO: COM: precision:  84.13%; recall:  81.67%; FB1:  82.88  1292
+2018-08-30 19:42:33,682:INFO: COM: precision:  84.13%; recall:  81.67%; FB1:  82.88  1292
+2018-08-30 19:42:35,012:INFO: 2018-08-30 19:42:33 epoch 20, step 1, loss: 0.009432, global_step: 15049
+2018-08-30 19:42:35,012:INFO: 2018-08-30 19:42:33 epoch 20, step 1, loss: 0.009432, global_step: 15049
+2018-08-30 19:47:03,231:INFO: 2018-08-30 19:42:33 epoch 20, step 300, loss: 0.09347, global_step: 15348
+2018-08-30 19:47:03,231:INFO: 2018-08-30 19:42:33 epoch 20, step 300, loss: 0.09347, global_step: 15348
+2018-08-30 19:51:32,992:INFO: 2018-08-30 19:42:33 epoch 20, step 600, loss: 0.03626, global_step: 15648
+2018-08-30 19:51:32,992:INFO: 2018-08-30 19:42:33 epoch 20, step 600, loss: 0.03626, global_step: 15648
+2018-08-30 19:54:25,436:INFO: 2018-08-30 19:42:33 epoch 20, step 792, loss: 0.06741, global_step: 15840
+2018-08-30 19:54:25,436:INFO: 2018-08-30 19:42:33 epoch 20, step 792, loss: 0.06741, global_step: 15840
+2018-08-30 19:54:25,704:INFO: ===========validation / test===========
+2018-08-30 19:54:25,704:INFO: ===========validation / test===========
+2018-08-30 19:54:53,888:INFO: processed 177232 tokens with 1331 phrases; found: 1306 phrases; correct: 1085.
+2018-08-30 19:54:53,888:INFO: processed 177232 tokens with 1331 phrases; found: 1306 phrases; correct: 1085.
+2018-08-30 19:54:53,888:INFO: accuracy:  99.13%; precision:  83.08%; recall:  81.52%; FB1:  82.29
+2018-08-30 19:54:53,888:INFO: accuracy:  99.13%; precision:  83.08%; recall:  81.52%; FB1:  82.29
+2018-08-30 19:54:53,889:INFO: COM: precision:  83.08%; recall:  81.52%; FB1:  82.29  1306
+2018-08-30 19:54:53,889:INFO: COM: precision:  83.08%; recall:  81.52%; FB1:  82.29  1306
+2018-08-30 19:54:55,046:INFO: 2018-08-30 19:54:53 epoch 21, step 1, loss: 0.07557, global_step: 15841
+2018-08-30 19:54:55,046:INFO: 2018-08-30 19:54:53 epoch 21, step 1, loss: 0.07557, global_step: 15841
+2018-08-30 19:59:30,486:INFO: 2018-08-30 19:54:53 epoch 21, step 300, loss: 0.09158, global_step: 16140
+2018-08-30 19:59:30,486:INFO: 2018-08-30 19:54:53 epoch 21, step 300, loss: 0.09158, global_step: 16140
+2018-08-30 20:04:03,700:INFO: 2018-08-30 19:54:53 epoch 21, step 600, loss: 0.05219, global_step: 16440
+2018-08-30 20:04:03,700:INFO: 2018-08-30 19:54:53 epoch 21, step 600, loss: 0.05219, global_step: 16440
+2018-08-30 20:06:56,577:INFO: 2018-08-30 19:54:53 epoch 21, step 792, loss: 0.05946, global_step: 16632
+2018-08-30 20:06:56,577:INFO: 2018-08-30 19:54:53 epoch 21, step 792, loss: 0.05946, global_step: 16632
+2018-08-30 20:06:56,810:INFO: ===========validation / test===========
+2018-08-30 20:06:56,810:INFO: ===========validation / test===========
+2018-08-30 20:07:25,920:INFO: processed 177232 tokens with 1331 phrases; found: 1309 phrases; correct: 1084.
+2018-08-30 20:07:25,920:INFO: processed 177232 tokens with 1331 phrases; found: 1309 phrases; correct: 1084.
+2018-08-30 20:07:25,920:INFO: accuracy:  99.10%; precision:  82.81%; recall:  81.44%; FB1:  82.12
+2018-08-30 20:07:25,920:INFO: accuracy:  99.10%; precision:  82.81%; recall:  81.44%; FB1:  82.12
+2018-08-30 20:07:25,920:INFO: COM: precision:  82.81%; recall:  81.44%; FB1:  82.12  1309
+2018-08-30 20:07:25,920:INFO: COM: precision:  82.81%; recall:  81.44%; FB1:  82.12  1309
+2018-08-30 20:07:27,400:INFO: 2018-08-30 20:07:25 epoch 22, step 1, loss: 0.03548, global_step: 16633
+2018-08-30 20:07:27,400:INFO: 2018-08-30 20:07:25 epoch 22, step 1, loss: 0.03548, global_step: 16633
+2018-08-30 20:11:58,164:INFO: 2018-08-30 20:07:25 epoch 22, step 300, loss: 0.03609, global_step: 16932
+2018-08-30 20:11:58,164:INFO: 2018-08-30 20:07:25 epoch 22, step 300, loss: 0.03609, global_step: 16932
+2018-08-30 20:16:29,308:INFO: 2018-08-30 20:07:25 epoch 22, step 600, loss: 0.02524, global_step: 17232
+2018-08-30 20:16:29,308:INFO: 2018-08-30 20:07:25 epoch 22, step 600, loss: 0.02524, global_step: 17232
+2018-08-30 20:19:32,010:INFO: 2018-08-30 20:07:25 epoch 22, step 792, loss: 0.05148, global_step: 17424
+2018-08-30 20:19:32,010:INFO: 2018-08-30 20:07:25 epoch 22, step 792, loss: 0.05148, global_step: 17424
+2018-08-30 20:19:32,276:INFO: ===========validation / test===========
+2018-08-30 20:19:32,276:INFO: ===========validation / test===========
+2018-08-30 20:20:03,760:INFO: processed 177232 tokens with 1331 phrases; found: 1281 phrases; correct: 1075.
+2018-08-30 20:20:03,760:INFO: processed 177232 tokens with 1331 phrases; found: 1281 phrases; correct: 1075.
+2018-08-30 20:20:03,760:INFO: accuracy:  99.16%; precision:  83.92%; recall:  80.77%; FB1:  82.31
+2018-08-30 20:20:03,760:INFO: accuracy:  99.16%; precision:  83.92%; recall:  80.77%; FB1:  82.31
+2018-08-30 20:20:03,760:INFO: COM: precision:  83.92%; recall:  80.77%; FB1:  82.31  1281
+2018-08-30 20:20:03,760:INFO: COM: precision:  83.92%; recall:  80.77%; FB1:  82.31  1281
+2018-08-30 20:20:05,010:INFO: 2018-08-30 20:20:03 epoch 23, step 1, loss: 0.03827, global_step: 17425
+2018-08-30 20:20:05,010:INFO: 2018-08-30 20:20:03 epoch 23, step 1, loss: 0.03827, global_step: 17425
+2018-08-30 20:24:50,256:INFO: 2018-08-30 20:20:03 epoch 23, step 300, loss: 0.04216, global_step: 17724
+2018-08-30 20:24:50,256:INFO: 2018-08-30 20:20:03 epoch 23, step 300, loss: 0.04216, global_step: 17724
+2018-08-30 20:29:37,780:INFO: 2018-08-30 20:20:03 epoch 23, step 600, loss: 0.01636, global_step: 18024
+2018-08-30 20:29:37,780:INFO: 2018-08-30 20:20:03 epoch 23, step 600, loss: 0.01636, global_step: 18024
+2018-08-30 20:32:40,833:INFO: 2018-08-30 20:20:03 epoch 23, step 792, loss: 0.006888, global_step: 18216
+2018-08-30 20:32:40,833:INFO: 2018-08-30 20:20:03 epoch 23, step 792, loss: 0.006888, global_step: 18216
+2018-08-30 20:32:41,081:INFO: ===========validation / test===========
+2018-08-30 20:32:41,081:INFO: ===========validation / test===========
+2018-08-30 20:33:10,457:INFO: processed 177232 tokens with 1331 phrases; found: 1306 phrases; correct: 1091.
+2018-08-30 20:33:10,457:INFO: processed 177232 tokens with 1331 phrases; found: 1306 phrases; correct: 1091.
+2018-08-30 20:33:10,458:INFO: accuracy:  99.16%; precision:  83.54%; recall:  81.97%; FB1:  82.75
+2018-08-30 20:33:10,458:INFO: accuracy:  99.16%; precision:  83.54%; recall:  81.97%; FB1:  82.75
+2018-08-30 20:33:10,458:INFO: COM: precision:  83.54%; recall:  81.97%; FB1:  82.75  1306
+2018-08-30 20:33:10,458:INFO: COM: precision:  83.54%; recall:  81.97%; FB1:  82.75  1306
+2018-08-30 20:33:11,720:INFO: 2018-08-30 20:33:10 epoch 24, step 1, loss: 0.0121, global_step: 18217
+2018-08-30 20:33:11,720:INFO: 2018-08-30 20:33:10 epoch 24, step 1, loss: 0.0121, global_step: 18217
+2018-08-30 20:37:56,951:INFO: 2018-08-30 20:33:10 epoch 24, step 300, loss: 0.08859, global_step: 18516
+2018-08-30 20:37:56,951:INFO: 2018-08-30 20:33:10 epoch 24, step 300, loss: 0.08859, global_step: 18516
+2018-08-30 20:42:42,427:INFO: 2018-08-30 20:33:10 epoch 24, step 600, loss: 0.1219, global_step: 18816
+2018-08-30 20:42:42,427:INFO: 2018-08-30 20:33:10 epoch 24, step 600, loss: 0.1219, global_step: 18816
+2018-08-30 20:45:45,473:INFO: 2018-08-30 20:33:10 epoch 24, step 792, loss: 0.1723, global_step: 19008
+2018-08-30 20:45:45,473:INFO: 2018-08-30 20:33:10 epoch 24, step 792, loss: 0.1723, global_step: 19008
+2018-08-30 20:45:45,679:INFO: ===========validation / test===========
+2018-08-30 20:45:45,679:INFO: ===========validation / test===========
+2018-08-30 20:46:16,145:INFO: processed 177232 tokens with 1331 phrases; found: 1310 phrases; correct: 1087.
+2018-08-30 20:46:16,145:INFO: processed 177232 tokens with 1331 phrases; found: 1310 phrases; correct: 1087.
+2018-08-30 20:46:16,145:INFO: accuracy:  99.13%; precision:  82.98%; recall:  81.67%; FB1:  82.32
+2018-08-30 20:46:16,145:INFO: accuracy:  99.13%; precision:  82.98%; recall:  81.67%; FB1:  82.32
+2018-08-30 20:46:16,145:INFO: COM: precision:  82.98%; recall:  81.67%; FB1:  82.32  1310
+2018-08-30 20:46:16,145:INFO: COM: precision:  82.98%; recall:  81.67%; FB1:  82.32  1310
+2018-08-30 20:46:17,190:INFO: 2018-08-30 20:46:16 epoch 25, step 1, loss: 0.004968, global_step: 19009
+2018-08-30 20:46:17,190:INFO: 2018-08-30 20:46:16 epoch 25, step 1, loss: 0.004968, global_step: 19009
+2018-08-30 20:50:59,226:INFO: 2018-08-30 20:46:16 epoch 25, step 300, loss: 0.03341, global_step: 19308
+2018-08-30 20:50:59,226:INFO: 2018-08-30 20:46:16 epoch 25, step 300, loss: 0.03341, global_step: 19308
+2018-08-30 20:55:44,160:INFO: 2018-08-30 20:46:16 epoch 25, step 600, loss: 0.04988, global_step: 19608
+2018-08-30 20:55:44,160:INFO: 2018-08-30 20:46:16 epoch 25, step 600, loss: 0.04988, global_step: 19608
+2018-08-30 20:58:51,011:INFO: 2018-08-30 20:46:16 epoch 25, step 792, loss: 0.156, global_step: 19800
+2018-08-30 20:58:51,011:INFO: 2018-08-30 20:46:16 epoch 25, step 792, loss: 0.156, global_step: 19800
+2018-08-30 20:58:51,271:INFO: ===========validation / test===========
+2018-08-30 20:58:51,271:INFO: ===========validation / test===========
+2018-08-30 20:59:21,618:INFO: processed 177232 tokens with 1331 phrases; found: 1331 phrases; correct: 1102.
+2018-08-30 20:59:21,618:INFO: processed 177232 tokens with 1331 phrases; found: 1331 phrases; correct: 1102.
+2018-08-30 20:59:21,618:INFO: accuracy:  99.14%; precision:  82.79%; recall:  82.79%; FB1:  82.79
+2018-08-30 20:59:21,618:INFO: accuracy:  99.14%; precision:  82.79%; recall:  82.79%; FB1:  82.79
+2018-08-30 20:59:21,618:INFO: COM: precision:  82.79%; recall:  82.79%; FB1:  82.79  1331
+2018-08-30 20:59:21,618:INFO: COM: precision:  82.79%; recall:  82.79%; FB1:  82.79  1331
+2018-08-30 20:59:22,734:INFO: 2018-08-30 20:59:21 epoch 26, step 1, loss: 0.1102, global_step: 19801
+2018-08-30 20:59:22,734:INFO: 2018-08-30 20:59:21 epoch 26, step 1, loss: 0.1102, global_step: 19801
+2018-08-30 21:04:18,821:INFO: 2018-08-30 20:59:21 epoch 26, step 300, loss: 0.0584, global_step: 20100
+2018-08-30 21:04:18,821:INFO: 2018-08-30 20:59:21 epoch 26, step 300, loss: 0.0584, global_step: 20100
+2018-08-30 21:09:13,683:INFO: 2018-08-30 20:59:21 epoch 26, step 600, loss: 0.003595, global_step: 20400
+2018-08-30 21:09:13,683:INFO: 2018-08-30 20:59:21 epoch 26, step 600, loss: 0.003595, global_step: 20400
+2018-08-30 21:12:18,692:INFO: 2018-08-30 20:59:21 epoch 26, step 792, loss: 0.01327, global_step: 20592
+2018-08-30 21:12:18,692:INFO: 2018-08-30 20:59:21 epoch 26, step 792, loss: 0.01327, global_step: 20592
+2018-08-30 21:12:18,918:INFO: ===========validation / test===========
+2018-08-30 21:12:18,918:INFO: ===========validation / test===========
+2018-08-30 21:12:48,163:INFO: processed 177232 tokens with 1331 phrases; found: 1311 phrases; correct: 1082.
+2018-08-30 21:12:48,163:INFO: processed 177232 tokens with 1331 phrases; found: 1311 phrases; correct: 1082.
+2018-08-30 21:12:48,164:INFO: accuracy:  99.12%; precision:  82.53%; recall:  81.29%; FB1:  81.91
+2018-08-30 21:12:48,164:INFO: accuracy:  99.12%; precision:  82.53%; recall:  81.29%; FB1:  81.91
+2018-08-30 21:12:48,164:INFO: COM: precision:  82.53%; recall:  81.29%; FB1:  81.91  1311
+2018-08-30 21:12:48,164:INFO: COM: precision:  82.53%; recall:  81.29%; FB1:  81.91  1311
+2018-08-30 21:12:49,653:INFO: 2018-08-30 21:12:48 epoch 27, step 1, loss: 0.003919, global_step: 20593
+2018-08-30 21:12:49,653:INFO: 2018-08-30 21:12:48 epoch 27, step 1, loss: 0.003919, global_step: 20593
+2018-08-30 21:17:34,010:INFO: 2018-08-30 21:12:48 epoch 27, step 300, loss: 0.04193, global_step: 20892
+2018-08-30 21:17:34,010:INFO: 2018-08-30 21:12:48 epoch 27, step 300, loss: 0.04193, global_step: 20892
+2018-08-30 21:22:21,830:INFO: 2018-08-30 21:12:48 epoch 27, step 600, loss: 0.005102, global_step: 21192
+2018-08-30 21:22:21,830:INFO: 2018-08-30 21:12:48 epoch 27, step 600, loss: 0.005102, global_step: 21192
+2018-08-30 21:25:30,900:INFO: 2018-08-30 21:12:48 epoch 27, step 792, loss: 0.02065, global_step: 21384
+2018-08-30 21:25:30,900:INFO: 2018-08-30 21:12:48 epoch 27, step 792, loss: 0.02065, global_step: 21384
+2018-08-30 21:25:31,140:INFO: ===========validation / test===========
+2018-08-30 21:25:31,140:INFO: ===========validation / test===========
+2018-08-30 21:26:01,620:INFO: processed 177232 tokens with 1331 phrases; found: 1297 phrases; correct: 1079.
+2018-08-30 21:26:01,620:INFO: processed 177232 tokens with 1331 phrases; found: 1297 phrases; correct: 1079.
+2018-08-30 21:26:01,621:INFO: accuracy:  99.16%; precision:  83.19%; recall:  81.07%; FB1:  82.12
+2018-08-30 21:26:01,621:INFO: accuracy:  99.16%; precision:  83.19%; recall:  81.07%; FB1:  82.12
+2018-08-30 21:26:01,621:INFO: COM: precision:  83.19%; recall:  81.07%; FB1:  82.12  1297
+2018-08-30 21:26:01,621:INFO: COM: precision:  83.19%; recall:  81.07%; FB1:  82.12  1297
+2018-08-30 21:26:03,197:INFO: 2018-08-30 21:26:01 epoch 28, step 1, loss: 0.03795, global_step: 21385
+2018-08-30 21:26:03,197:INFO: 2018-08-30 21:26:01 epoch 28, step 1, loss: 0.03795, global_step: 21385
+2018-08-30 21:30:56,455:INFO: 2018-08-30 21:26:01 epoch 28, step 300, loss: 0.05283, global_step: 21684
+2018-08-30 21:30:56,455:INFO: 2018-08-30 21:26:01 epoch 28, step 300, loss: 0.05283, global_step: 21684
+2018-08-30 21:35:52,745:INFO: 2018-08-30 21:26:01 epoch 28, step 600, loss: 0.08014, global_step: 21984
+2018-08-30 21:35:52,745:INFO: 2018-08-30 21:26:01 epoch 28, step 600, loss: 0.08014, global_step: 21984
+2018-08-30 21:39:01,503:INFO: 2018-08-30 21:26:01 epoch 28, step 792, loss: 0.001387, global_step: 22176
+2018-08-30 21:39:01,503:INFO: 2018-08-30 21:26:01 epoch 28, step 792, loss: 0.001387, global_step: 22176
+2018-08-30 21:39:01,749:INFO: ===========validation / test===========
+2018-08-30 21:39:01,749:INFO: ===========validation / test===========
+2018-08-30 21:39:32,969:INFO: processed 177232 tokens with 1331 phrases; found: 1263 phrases; correct: 1069.
+2018-08-30 21:39:32,969:INFO: processed 177232 tokens with 1331 phrases; found: 1263 phrases; correct: 1069.
+2018-08-30 21:39:32,969:INFO: accuracy:  99.16%; precision:  84.64%; recall:  80.32%; FB1:  82.42
+2018-08-30 21:39:32,969:INFO: accuracy:  99.16%; precision:  84.64%; recall:  80.32%; FB1:  82.42
+2018-08-30 21:39:32,969:INFO: COM: precision:  84.64%; recall:  80.32%; FB1:  82.42  1263
+2018-08-30 21:39:32,969:INFO: COM: precision:  84.64%; recall:  80.32%; FB1:  82.42  1263
+2018-08-30 21:39:34,101:INFO: 2018-08-30 21:39:32 epoch 29, step 1, loss: 0.001372, global_step: 22177
+2018-08-30 21:39:34,101:INFO: 2018-08-30 21:39:32 epoch 29, step 1, loss: 0.001372, global_step: 22177
+2018-08-30 21:44:32,258:INFO: 2018-08-30 21:39:32 epoch 29, step 300, loss: 0.02678, global_step: 22476
+2018-08-30 21:44:32,258:INFO: 2018-08-30 21:39:32 epoch 29, step 300, loss: 0.02678, global_step: 22476
+2018-08-30 21:49:26,793:INFO: 2018-08-30 21:39:32 epoch 29, step 600, loss: 0.1096, global_step: 22776
+2018-08-30 21:49:26,793:INFO: 2018-08-30 21:39:32 epoch 29, step 600, loss: 0.1096, global_step: 22776
+2018-08-30 21:52:35,177:INFO: 2018-08-30 21:39:32 epoch 29, step 792, loss: 0.006107, global_step: 22968
+2018-08-30 21:52:35,177:INFO: 2018-08-30 21:39:32 epoch 29, step 792, loss: 0.006107, global_step: 22968
+2018-08-30 21:52:35,416:INFO: ===========validation / test===========
+2018-08-30 21:52:35,416:INFO: ===========validation / test===========
+2018-08-30 21:53:05,452:INFO: processed 177232 tokens with 1331 phrases; found: 1259 phrases; correct: 1065.
+2018-08-30 21:53:05,452:INFO: processed 177232 tokens with 1331 phrases; found: 1259 phrases; correct: 1065.
+2018-08-30 21:53:05,453:INFO: accuracy:  99.16%; precision:  84.59%; recall:  80.02%; FB1:  82.24
+2018-08-30 21:53:05,453:INFO: accuracy:  99.16%; precision:  84.59%; recall:  80.02%; FB1:  82.24
+2018-08-30 21:53:05,453:INFO: COM: precision:  84.59%; recall:  80.02%; FB1:  82.24  1259
+2018-08-30 21:53:05,453:INFO: COM: precision:  84.59%; recall:  80.02%; FB1:  82.24  1259
+2018-08-30 21:53:06,735:INFO: 2018-08-30 21:53:05 epoch 30, step 1, loss: 0.03809, global_step: 22969
+2018-08-30 21:53:06,735:INFO: 2018-08-30 21:53:05 epoch 30, step 1, loss: 0.03809, global_step: 22969
+2018-08-30 21:57:53,104:INFO: 2018-08-30 21:53:05 epoch 30, step 300, loss: 0.002184, global_step: 23268
+2018-08-30 21:57:53,104:INFO: 2018-08-30 21:53:05 epoch 30, step 300, loss: 0.002184, global_step: 23268
+2018-08-30 22:02:35,294:INFO: 2018-08-30 21:53:05 epoch 30, step 600, loss: 0.0586, global_step: 23568
+2018-08-30 22:02:35,294:INFO: 2018-08-30 21:53:05 epoch 30, step 600, loss: 0.0586, global_step: 23568
+2018-08-30 22:05:39,284:INFO: 2018-08-30 21:53:05 epoch 30, step 792, loss: 0.01624, global_step: 23760
+2018-08-30 22:05:39,284:INFO: 2018-08-30 21:53:05 epoch 30, step 792, loss: 0.01624, global_step: 23760
+2018-08-30 22:05:39,597:INFO: ===========validation / test===========
+2018-08-30 22:05:39,597:INFO: ===========validation / test===========
+2018-08-30 22:06:10,684:INFO: processed 177232 tokens with 1331 phrases; found: 1315 phrases; correct: 1098.
+2018-08-30 22:06:10,684:INFO: processed 177232 tokens with 1331 phrases; found: 1315 phrases; correct: 1098.
+2018-08-30 22:06:10,684:INFO: accuracy:  99.17%; precision:  83.50%; recall:  82.49%; FB1:  82.99
+2018-08-30 22:06:10,684:INFO: accuracy:  99.17%; precision:  83.50%; recall:  82.49%; FB1:  82.99
+2018-08-30 22:06:10,684:INFO: COM: precision:  83.50%; recall:  82.49%; FB1:  82.99  1315
+2018-08-30 22:06:10,684:INFO: COM: precision:  83.50%; recall:  82.49%; FB1:  82.99  1315
+2018-08-30 22:06:12,146:INFO: 2018-08-30 22:06:10 epoch 31, step 1, loss: 0.06926, global_step: 23761
+2018-08-30 22:06:12,146:INFO: 2018-08-30 22:06:10 epoch 31, step 1, loss: 0.06926, global_step: 23761
+2018-08-30 22:10:59,025:INFO: 2018-08-30 22:06:10 epoch 31, step 300, loss: 0.01725, global_step: 24060
+2018-08-30 22:10:59,025:INFO: 2018-08-30 22:06:10 epoch 31, step 300, loss: 0.01725, global_step: 24060
+2018-08-30 22:15:40,904:INFO: 2018-08-30 22:06:10 epoch 31, step 600, loss: 0.02212, global_step: 24360
+2018-08-30 22:15:40,904:INFO: 2018-08-30 22:06:10 epoch 31, step 600, loss: 0.02212, global_step: 24360
+2018-08-30 22:18:40,735:INFO: 2018-08-30 22:06:10 epoch 31, step 792, loss: 0.02697, global_step: 24552
+2018-08-30 22:18:40,735:INFO: 2018-08-30 22:06:10 epoch 31, step 792, loss: 0.02697, global_step: 24552
+2018-08-30 22:18:40,960:INFO: ===========validation / test===========
+2018-08-30 22:18:40,960:INFO: ===========validation / test===========
+2018-08-30 22:19:11,906:INFO: processed 177232 tokens with 1331 phrases; found: 1336 phrases; correct: 1098.
+2018-08-30 22:19:11,906:INFO: processed 177232 tokens with 1331 phrases; found: 1336 phrases; correct: 1098.
+2018-08-30 22:19:11,907:INFO: accuracy:  99.13%; precision:  82.19%; recall:  82.49%; FB1:  82.34
+2018-08-30 22:19:11,907:INFO: accuracy:  99.13%; precision:  82.19%; recall:  82.49%; FB1:  82.34
+2018-08-30 22:19:11,907:INFO: COM: precision:  82.19%; recall:  82.49%; FB1:  82.34  1336
+2018-08-30 22:19:11,907:INFO: COM: precision:  82.19%; recall:  82.49%; FB1:  82.34  1336
+2018-08-30 22:19:13,003:INFO: 2018-08-30 22:19:11 epoch 32, step 1, loss: 0.02011, global_step: 24553
+2018-08-30 22:19:13,003:INFO: 2018-08-30 22:19:11 epoch 32, step 1, loss: 0.02011, global_step: 24553
+2018-08-30 22:23:54,749:INFO: 2018-08-30 22:19:11 epoch 32, step 300, loss: 0.03313, global_step: 24852
+2018-08-30 22:23:54,749:INFO: 2018-08-30 22:19:11 epoch 32, step 300, loss: 0.03313, global_step: 24852
+2018-08-30 22:28:38,854:INFO: 2018-08-30 22:19:11 epoch 32, step 600, loss: 0.01332, global_step: 25152
+2018-08-30 22:28:38,854:INFO: 2018-08-30 22:19:11 epoch 32, step 600, loss: 0.01332, global_step: 25152
+2018-08-30 22:31:39,512:INFO: 2018-08-30 22:19:11 epoch 32, step 792, loss: 0.0438, global_step: 25344
+2018-08-30 22:31:39,512:INFO: 2018-08-30 22:19:11 epoch 32, step 792, loss: 0.0438, global_step: 25344
+2018-08-30 22:31:39,763:INFO: ===========validation / test===========
+2018-08-30 22:31:39,763:INFO: ===========validation / test===========
+2018-08-30 22:32:09,904:INFO: processed 177232 tokens with 1331 phrases; found: 1274 phrases; correct: 1083.
+2018-08-30 22:32:09,904:INFO: processed 177232 tokens with 1331 phrases; found: 1274 phrases; correct: 1083.
+2018-08-30 22:32:09,904:INFO: accuracy:  99.14%; precision:  85.01%; recall:  81.37%; FB1:  83.15
+2018-08-30 22:32:09,904:INFO: accuracy:  99.14%; precision:  85.01%; recall:  81.37%; FB1:  83.15
+2018-08-30 22:32:09,905:INFO: COM: precision:  85.01%; recall:  81.37%; FB1:  83.15  1274
+2018-08-30 22:32:09,905:INFO: COM: precision:  85.01%; recall:  81.37%; FB1:  83.15  1274
+2018-08-30 22:32:11,118:INFO: 2018-08-30 22:32:09 epoch 33, step 1, loss: 0.1153, global_step: 25345
+2018-08-30 22:32:11,118:INFO: 2018-08-30 22:32:09 epoch 33, step 1, loss: 0.1153, global_step: 25345
+2018-08-30 22:36:54,744:INFO: 2018-08-30 22:32:09 epoch 33, step 300, loss: 0.01552, global_step: 25644
+2018-08-30 22:36:54,744:INFO: 2018-08-30 22:32:09 epoch 33, step 300, loss: 0.01552, global_step: 25644
+2018-08-30 22:41:41,195:INFO: 2018-08-30 22:32:09 epoch 33, step 600, loss: 0.00329, global_step: 25944
+2018-08-30 22:41:41,195:INFO: 2018-08-30 22:32:09 epoch 33, step 600, loss: 0.00329, global_step: 25944
+2018-08-30 22:44:40,221:INFO: 2018-08-30 22:32:09 epoch 33, step 792, loss: 0.004469, global_step: 26136
+2018-08-30 22:44:40,221:INFO: 2018-08-30 22:32:09 epoch 33, step 792, loss: 0.004469, global_step: 26136
+2018-08-30 22:44:40,484:INFO: ===========validation / test===========
+2018-08-30 22:44:40,484:INFO: ===========validation / test===========
+2018-08-30 22:45:10,460:INFO: processed 177232 tokens with 1331 phrases; found: 1296 phrases; correct: 1084.
+2018-08-30 22:45:10,460:INFO: processed 177232 tokens with 1331 phrases; found: 1296 phrases; correct: 1084.
+2018-08-30 22:45:10,460:INFO: accuracy:  99.09%; precision:  83.64%; recall:  81.44%; FB1:  82.53
+2018-08-30 22:45:10,460:INFO: accuracy:  99.09%; precision:  83.64%; recall:  81.44%; FB1:  82.53
+2018-08-30 22:45:10,460:INFO: COM: precision:  83.64%; recall:  81.44%; FB1:  82.53  1296
+2018-08-30 22:45:10,460:INFO: COM: precision:  83.64%; recall:  81.44%; FB1:  82.53  1296
+2018-08-30 22:45:11,646:INFO: 2018-08-30 22:45:10 epoch 34, step 1, loss: 0.08464, global_step: 26137
+2018-08-30 22:45:11,646:INFO: 2018-08-30 22:45:10 epoch 34, step 1, loss: 0.08464, global_step: 26137
+2018-08-30 22:49:53,528:INFO: 2018-08-30 22:45:10 epoch 34, step 300, loss: 0.0006902, global_step: 26436
+2018-08-30 22:49:53,528:INFO: 2018-08-30 22:45:10 epoch 34, step 300, loss: 0.0006902, global_step: 26436
+2018-08-30 22:54:36,287:INFO: 2018-08-30 22:45:10 epoch 34, step 600, loss: 0.1589, global_step: 26736
+2018-08-30 22:54:36,287:INFO: 2018-08-30 22:45:10 epoch 34, step 600, loss: 0.1589, global_step: 26736
+2018-08-30 22:57:37,763:INFO: 2018-08-30 22:45:10 epoch 34, step 792, loss: 0.008895, global_step: 26928
+2018-08-30 22:57:37,763:INFO: 2018-08-30 22:45:10 epoch 34, step 792, loss: 0.008895, global_step: 26928
+2018-08-30 22:57:37,980:INFO: ===========validation / test===========
+2018-08-30 22:57:37,980:INFO: ===========validation / test===========
+2018-08-30 22:58:07,193:INFO: processed 177232 tokens with 1331 phrases; found: 1313 phrases; correct: 1080.
+2018-08-30 22:58:07,193:INFO: processed 177232 tokens with 1331 phrases; found: 1313 phrases; correct: 1080.
+2018-08-30 22:58:07,194:INFO: accuracy:  99.08%; precision:  82.25%; recall:  81.14%; FB1:  81.69
+2018-08-30 22:58:07,194:INFO: accuracy:  99.08%; precision:  82.25%; recall:  81.14%; FB1:  81.69
+2018-08-30 22:58:07,194:INFO: COM: precision:  82.25%; recall:  81.14%; FB1:  81.69  1313
+2018-08-30 22:58:07,194:INFO: COM: precision:  82.25%; recall:  81.14%; FB1:  81.69  1313
+2018-08-30 22:58:08,510:INFO: 2018-08-30 22:58:07 epoch 35, step 1, loss: 0.004249, global_step: 26929
+2018-08-30 22:58:08,510:INFO: 2018-08-30 22:58:07 epoch 35, step 1, loss: 0.004249, global_step: 26929
+2018-08-30 23:02:50,287:INFO: 2018-08-30 22:58:07 epoch 35, step 300, loss: 0.008674, global_step: 27228
+2018-08-30 23:02:50,287:INFO: 2018-08-30 22:58:07 epoch 35, step 300, loss: 0.008674, global_step: 27228
+2018-08-30 23:07:22,070:INFO: 2018-08-30 22:58:07 epoch 35, step 600, loss: 0.04469, global_step: 27528
+2018-08-30 23:07:22,070:INFO: 2018-08-30 22:58:07 epoch 35, step 600, loss: 0.04469, global_step: 27528
+2018-08-30 23:10:14,486:INFO: 2018-08-30 22:58:07 epoch 35, step 792, loss: 0.0006121, global_step: 27720
+2018-08-30 23:10:14,486:INFO: 2018-08-30 22:58:07 epoch 35, step 792, loss: 0.0006121, global_step: 27720
+2018-08-30 23:10:14,688:INFO: ===========validation / test===========
+2018-08-30 23:10:14,688:INFO: ===========validation / test===========
+2018-08-30 23:10:43,475:INFO: processed 177232 tokens with 1331 phrases; found: 1294 phrases; correct: 1074.
+2018-08-30 23:10:43,475:INFO: processed 177232 tokens with 1331 phrases; found: 1294 phrases; correct: 1074.
+2018-08-30 23:10:43,476:INFO: accuracy:  99.09%; precision:  83.00%; recall:  80.69%; FB1:  81.83
+2018-08-30 23:10:43,476:INFO: accuracy:  99.09%; precision:  83.00%; recall:  80.69%; FB1:  81.83
+2018-08-30 23:10:43,476:INFO: COM: precision:  83.00%; recall:  80.69%; FB1:  81.83  1294
+2018-08-30 23:10:43,476:INFO: COM: precision:  83.00%; recall:  80.69%; FB1:  81.83  1294
+2018-08-30 23:10:44,535:INFO: 2018-08-30 23:10:43 epoch 36, step 1, loss: 0.01421, global_step: 27721
+2018-08-30 23:10:44,535:INFO: 2018-08-30 23:10:43 epoch 36, step 1, loss: 0.01421, global_step: 27721
+2018-08-30 23:15:14,717:INFO: 2018-08-30 23:10:43 epoch 36, step 300, loss: 0.01082, global_step: 28020
+2018-08-30 23:15:14,717:INFO: 2018-08-30 23:10:43 epoch 36, step 300, loss: 0.01082, global_step: 28020
+2018-08-30 23:19:46,877:INFO: 2018-08-30 23:10:43 epoch 36, step 600, loss: 0.02053, global_step: 28320
+2018-08-30 23:19:46,877:INFO: 2018-08-30 23:10:43 epoch 36, step 600, loss: 0.02053, global_step: 28320
+2018-08-30 23:22:37,591:INFO: 2018-08-30 23:10:43 epoch 36, step 792, loss: 0.0008502, global_step: 28512
+2018-08-30 23:22:37,591:INFO: 2018-08-30 23:10:43 epoch 36, step 792, loss: 0.0008502, global_step: 28512
+2018-08-30 23:22:37,818:INFO: ===========validation / test===========
+2018-08-30 23:22:37,818:INFO: ===========validation / test===========
+2018-08-30 23:23:06,757:INFO: processed 177232 tokens with 1331 phrases; found: 1272 phrases; correct: 1077.
+2018-08-30 23:23:06,757:INFO: processed 177232 tokens with 1331 phrases; found: 1272 phrases; correct: 1077.
+2018-08-30 23:23:06,757:INFO: accuracy:  99.16%; precision:  84.67%; recall:  80.92%; FB1:  82.75
+2018-08-30 23:23:06,757:INFO: accuracy:  99.16%; precision:  84.67%; recall:  80.92%; FB1:  82.75
+2018-08-30 23:23:06,758:INFO: COM: precision:  84.67%; recall:  80.92%; FB1:  82.75  1272
+2018-08-30 23:23:06,758:INFO: COM: precision:  84.67%; recall:  80.92%; FB1:  82.75  1272
+2018-08-30 23:23:07,903:INFO: 2018-08-30 23:23:06 epoch 37, step 1, loss: 0.005454, global_step: 28513
+2018-08-30 23:23:07,903:INFO: 2018-08-30 23:23:06 epoch 37, step 1, loss: 0.005454, global_step: 28513
+2018-08-30 23:27:35,855:INFO: 2018-08-30 23:23:06 epoch 37, step 300, loss: 0.01671, global_step: 28812
+2018-08-30 23:27:35,855:INFO: 2018-08-30 23:23:06 epoch 37, step 300, loss: 0.01671, global_step: 28812
+2018-08-30 23:32:04,413:INFO: 2018-08-30 23:23:06 epoch 37, step 600, loss: 0.07364, global_step: 29112
+2018-08-30 23:32:04,413:INFO: 2018-08-30 23:23:06 epoch 37, step 600, loss: 0.07364, global_step: 29112
+2018-08-30 23:34:58,016:INFO: 2018-08-30 23:23:06 epoch 37, step 792, loss: 0.0009952, global_step: 29304
+2018-08-30 23:34:58,016:INFO: 2018-08-30 23:23:06 epoch 37, step 792, loss: 0.0009952, global_step: 29304
+2018-08-30 23:34:58,225:INFO: ===========validation / test===========
+2018-08-30 23:34:58,225:INFO: ===========validation / test===========
+2018-08-30 23:35:26,738:INFO: processed 177232 tokens with 1331 phrases; found: 1290 phrases; correct: 1083.
+2018-08-30 23:35:26,738:INFO: processed 177232 tokens with 1331 phrases; found: 1290 phrases; correct: 1083.
+2018-08-30 23:35:26,739:INFO: accuracy:  99.15%; precision:  83.95%; recall:  81.37%; FB1:  82.64
+2018-08-30 23:35:26,739:INFO: accuracy:  99.15%; precision:  83.95%; recall:  81.37%; FB1:  82.64
+2018-08-30 23:35:26,739:INFO: COM: precision:  83.95%; recall:  81.37%; FB1:  82.64  1290
+2018-08-30 23:35:26,739:INFO: COM: precision:  83.95%; recall:  81.37%; FB1:  82.64  1290
+2018-08-30 23:35:28,010:INFO: 2018-08-30 23:35:26 epoch 38, step 1, loss: 0.003087, global_step: 29305
+2018-08-30 23:35:28,010:INFO: 2018-08-30 23:35:26 epoch 38, step 1, loss: 0.003087, global_step: 29305
+2018-08-30 23:39:58,090:INFO: 2018-08-30 23:35:26 epoch 38, step 300, loss: 0.04745, global_step: 29604
+2018-08-30 23:39:58,090:INFO: 2018-08-30 23:35:26 epoch 38, step 300, loss: 0.04745, global_step: 29604
+2018-08-30 23:44:31,364:INFO: 2018-08-30 23:35:26 epoch 38, step 600, loss: 0.05208, global_step: 29904
+2018-08-30 23:44:31,364:INFO: 2018-08-30 23:35:26 epoch 38, step 600, loss: 0.05208, global_step: 29904
+2018-08-30 23:47:23,209:INFO: 2018-08-30 23:35:26 epoch 38, step 792, loss: 0.01387, global_step: 30096
+2018-08-30 23:47:23,209:INFO: 2018-08-30 23:35:26 epoch 38, step 792, loss: 0.01387, global_step: 30096
+2018-08-30 23:47:23,438:INFO: ===========validation / test===========
+2018-08-30 23:47:23,438:INFO: ===========validation / test===========
+2018-08-30 23:47:51,857:INFO: processed 177232 tokens with 1331 phrases; found: 1292 phrases; correct: 1095.
+2018-08-30 23:47:51,857:INFO: processed 177232 tokens with 1331 phrases; found: 1292 phrases; correct: 1095.
+2018-08-30 23:47:51,857:INFO: accuracy:  99.22%; precision:  84.75%; recall:  82.27%; FB1:  83.49
+2018-08-30 23:47:51,857:INFO: accuracy:  99.22%; precision:  84.75%; recall:  82.27%; FB1:  83.49
+2018-08-30 23:47:51,857:INFO: COM: precision:  84.75%; recall:  82.27%; FB1:  83.49  1292
+2018-08-30 23:47:51,857:INFO: COM: precision:  84.75%; recall:  82.27%; FB1:  83.49  1292
+2018-08-30 23:47:53,185:INFO: 2018-08-30 23:47:51 epoch 39, step 1, loss: 0.003633, global_step: 30097
+2018-08-30 23:47:53,185:INFO: 2018-08-30 23:47:51 epoch 39, step 1, loss: 0.003633, global_step: 30097
+2018-08-30 23:52:22,126:INFO: 2018-08-30 23:47:51 epoch 39, step 300, loss: 0.001506, global_step: 30396
+2018-08-30 23:52:22,126:INFO: 2018-08-30 23:47:51 epoch 39, step 300, loss: 0.001506, global_step: 30396
+2018-08-30 23:56:51,273:INFO: 2018-08-30 23:47:51 epoch 39, step 600, loss: 0.1074, global_step: 30696
+2018-08-30 23:56:51,273:INFO: 2018-08-30 23:47:51 epoch 39, step 600, loss: 0.1074, global_step: 30696
+2018-08-30 23:59:43,127:INFO: 2018-08-30 23:47:51 epoch 39, step 792, loss: 0.001869, global_step: 30888
+2018-08-30 23:59:43,127:INFO: 2018-08-30 23:47:51 epoch 39, step 792, loss: 0.001869, global_step: 30888
+2018-08-30 23:59:43,350:INFO: ===========validation / test===========
+2018-08-30 23:59:43,350:INFO: ===========validation / test===========
+2018-08-31 00:00:12,118:INFO: processed 177232 tokens with 1331 phrases; found: 1279 phrases; correct: 1082.
+2018-08-31 00:00:12,118:INFO: processed 177232 tokens with 1331 phrases; found: 1279 phrases; correct: 1082.
+2018-08-31 00:00:12,119:INFO: accuracy:  99.17%; precision:  84.60%; recall:  81.29%; FB1:  82.91
+2018-08-31 00:00:12,119:INFO: accuracy:  99.17%; precision:  84.60%; recall:  81.29%; FB1:  82.91
+2018-08-31 00:00:12,119:INFO: COM: precision:  84.60%; recall:  81.29%; FB1:  82.91  1279
+2018-08-31 00:00:12,119:INFO: COM: precision:  84.60%; recall:  81.29%; FB1:  82.91  1279
+2018-08-31 00:00:13,141:INFO: 2018-08-31 00:00:12 epoch 40, step 1, loss: 0.09396, global_step: 30889
+2018-08-31 00:00:13,141:INFO: 2018-08-31 00:00:12 epoch 40, step 1, loss: 0.09396, global_step: 30889
+2018-08-31 00:04:43,387:INFO: 2018-08-31 00:00:12 epoch 40, step 300, loss: 0.001821, global_step: 31188
+2018-08-31 00:04:43,387:INFO: 2018-08-31 00:00:12 epoch 40, step 300, loss: 0.001821, global_step: 31188
+2018-08-31 00:09:11,303:INFO: 2018-08-31 00:00:12 epoch 40, step 600, loss: 0.02278, global_step: 31488
+2018-08-31 00:09:11,303:INFO: 2018-08-31 00:00:12 epoch 40, step 600, loss: 0.02278, global_step: 31488
+2018-08-31 00:12:02,262:INFO: 2018-08-31 00:00:12 epoch 40, step 792, loss: 0.0006539, global_step: 31680
+2018-08-31 00:12:02,262:INFO: 2018-08-31 00:00:12 epoch 40, step 792, loss: 0.0006539, global_step: 31680
+2018-08-31 00:12:02,490:INFO: ===========validation / test===========
+2018-08-31 00:12:02,490:INFO: ===========validation / test===========
+2018-08-31 00:12:31,914:INFO: processed 177232 tokens with 1331 phrases; found: 1283 phrases; correct: 1091.
+2018-08-31 00:12:31,914:INFO: processed 177232 tokens with 1331 phrases; found: 1283 phrases; correct: 1091.
+2018-08-31 00:12:31,914:INFO: accuracy:  99.20%; precision:  85.04%; recall:  81.97%; FB1:  83.47
+2018-08-31 00:12:31,914:INFO: accuracy:  99.20%; precision:  85.04%; recall:  81.97%; FB1:  83.47
+2018-08-31 00:12:31,914:INFO: COM: precision:  85.04%; recall:  81.97%; FB1:  83.47  1283
+2018-08-31 00:12:31,914:INFO: COM: precision:  85.04%; recall:  81.97%; FB1:  83.47  1283
