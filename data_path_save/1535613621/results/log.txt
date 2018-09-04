@@ -639,3 +639,14 @@
 2018-08-31 00:12:31,914:INFO: accuracy:  99.20%; precision:  85.04%; recall:  81.97%; FB1:  83.47
 2018-08-31 00:12:31,914:INFO: COM: precision:  85.04%; recall:  81.97%; FB1:  83.47  1283
 2018-08-31 00:12:31,914:INFO: COM: precision:  85.04%; recall:  81.97%; FB1:  83.47  1283
+2018-09-03 09:26:41,485:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1535613621', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2018-09-03 09:26:42,836:INFO: =========== testing ===========
+2018-09-03 09:26:42,836:INFO: =========== testing ===========
+2018-09-03 09:26:42,837:INFO: Restoring parameters from ./data_path_save/1535613621/checkpoints/model-31680
+2018-09-03 09:26:42,837:INFO: Restoring parameters from ./data_path_save/1535613621/checkpoints/model-31680
+2018-09-03 09:27:04,664:INFO: processed 177232 tokens with 1331 phrases; found: 1283 phrases; correct: 1091.
+2018-09-03 09:27:04,664:INFO: processed 177232 tokens with 1331 phrases; found: 1283 phrases; correct: 1091.
+2018-09-03 09:27:04,665:INFO: accuracy:  99.20%; precision:  85.04%; recall:  81.97%; FB1:  83.47
+2018-09-03 09:27:04,665:INFO: accuracy:  99.20%; precision:  85.04%; recall:  81.97%; FB1:  83.47
+2018-09-03 09:27:04,665:INFO: COM: precision:  85.04%; recall:  81.97%; FB1:  83.47  1283
+2018-09-03 09:27:04,665:INFO: COM: precision:  85.04%; recall:  81.97%; FB1:  83.47  1283
