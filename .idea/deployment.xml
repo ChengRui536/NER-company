@@ -5,7 +5,7 @@
       <paths name="cll@10.108.210.37">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/cr/zh-NER-TF-master/main.py" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/cr/zh-NER-TF-master" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
