@@ -31,7 +31,7 @@ parser.add_argument('--pretrain_embedding', type=str, default='random', help='us
 parser.add_argument('--embedding_dim', type=int, default=300, help='random init char embedding_dim')
 parser.add_argument('--shuffle', type=str2bool, default=True, help='shuffle training data before each epoch')
 parser.add_argument('--mode', type=str, default='demo', help='train/test/demo')
-parser.add_argument('--demo_model', type=str, default='1521112368', help='model for test and demo')
+parser.add_argument('--demo_model', type=str, default='1536029663', help='model for test and demo')
 args = parser.parse_args()
 
 
@@ -109,14 +109,47 @@ elif args.mode == 'demo':
         print('============= demo =============')
         saver.restore(sess, ckpt_file)
         while(1):
-            print('Please input your sentence:')
+            print('请输入句子：')
             demo_sent = input()
             if demo_sent == '' or demo_sent.isspace():
-                print('See you next time!')
+                print('再见！')
                 break
             else:
                 demo_sent = list(demo_sent.strip())
                 demo_data = [(demo_sent, ['O'] * len(demo_sent))]
                 tag = model.demo_one(sess, demo_data)
                 COM = get_entity(tag, demo_sent)
-                print('COM: {}'.format(COM))
+
+                fresults=[]
+                results = list(set(COM))  # 对结果去重
+                # results=results.remove('')
+                for result in results:
+                    i = result.strip()  # 去掉字符串中首尾的空格
+                    if i=='':
+                        continue
+                    fresults.append(i)
+                fresults = list(set(fresults))
+                print('COM: {}'.format(fresults))
+
+                modify=input("是否需要修改？(y/n) ")
+                while(modify=='y'):
+                    item=input("请选择修改项(1-添加，2-修改，3-删除)：")
+                    if(item=='1'): #添加公司名
+                        com_mod=input("请输入要添加的公司名(多个以逗号隔开)：")
+                        com_mod=com_mod.split("，")
+                        for com in com_mod:
+                            fresults.append(com)
+                    elif(item=='2'): #修改公司名
+                        com_mod=input("请输入修改前的公司名和修改后的公司名，以/隔开(多个以逗号隔开)：")
+                        com_mod = com_mod.split("，") #得到修改前和修改后的公司名
+                        for com in com_mod:
+                            com_fb=com.split('/')
+                            fresults.remove(com_fb[0])
+                            fresults.append(com_fb[1])
+                    elif(item=='3'):
+                        com_mod=input("请输入要删除的公司名(多个以逗号隔开)：")
+                        com_mod = com_mod.split("，")
+                        for com in com_mod:
+                            fresults.remove(com)
+                    print('修改后的COM:{}'.format(fresults))
+                    modify = input("是否继续修改？(y/n) ")
